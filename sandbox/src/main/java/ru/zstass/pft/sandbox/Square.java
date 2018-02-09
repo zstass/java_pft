@@ -6,4 +6,7 @@ class Square {
     Square(double l) {
         this.l = l;
     }
+    double area() {
+        return this.l * this.l;
+    }
 }
