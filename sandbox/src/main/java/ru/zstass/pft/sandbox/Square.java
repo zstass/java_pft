@@ -1,12 +1,12 @@
 package ru.zstass.pft.sandbox;
 
-class Square {
-    double l;
+public class Square {
+    public double l;
 
-    Square(double l) {
+    public Square(double l) {
         this.l = l;
     }
-    double area() {
+    public double area() {
         return this.l * this.l;
     }
 }
